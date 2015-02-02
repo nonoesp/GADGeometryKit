@@ -2,6 +2,9 @@
 
 import UIKit
 
+
+// pragma: GADLine
+
 class GADLine {
     var startPoint : CGPoint
     var endPoint : CGPoint
@@ -22,11 +25,8 @@ class GADLine {
     
 }
 
+// Testing
 
-
-let line2 = GADLine(startPt: CGPointMake(0, 0), endPt: CGPointMake(1,1))
-
-
-line2.length()
-
-line2.endPoint
+let line = GADLine(startPt: CGPointMake(0, 0), endPt: CGPointMake(1,1))
+line.length()
+line.endPoint
